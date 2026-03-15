@@ -208,7 +208,7 @@ function cdnPrefixImages(): Plugin {
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   return {
-    base: '/Dark_Forclosure/',
+    base: '/',
     server: {
       host: "::",
       port: 8080,
