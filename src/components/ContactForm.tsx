@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+import emailjs from "@emailjs/browser";
 
 interface FormData {
   fullName: string;
@@ -76,18 +77,39 @@ export default function ContactForm({
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
     const errs = validate();
     if (Object.keys(errs).length > 0) {
       setErrors(errs);
       return;
     }
+
     setStatus('submitting');
-    // Simulate form submission (mailto fallback)
+
     try {
-      await new Promise((res) => setTimeout(res, 1200));
+      await emailjs.send(
+        "service_pheah7d",
+        "template_gylvhn4",
+        {
+          fullName: formData.fullName,
+          phone: formData.phone,
+          email: formData.email,
+          propertyAddress: formData.propertyAddress,
+          message: formData.message,
+        },
+        "MiiLe2gQjnfi8KdcL"
+      );
+
       setStatus('success');
-      setFormData({ fullName: '', phone: '', email: '', propertyAddress: '', message: '' });
-    } catch {
+      setFormData({
+        fullName: '',
+        phone: '',
+        email: '',
+        propertyAddress: '',
+        message: '',
+      });
+    } catch (error) {
+      console.error('EmailJS error:', error);
       setStatus('error');
     }
   };
