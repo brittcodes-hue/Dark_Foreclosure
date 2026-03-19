@@ -126,7 +126,7 @@ export default function FAQPage() {
             Don't See Your Question?
           </h2>
           <p className="text-gray-300 text-sm md:text-base leading-relaxed max-w-xl mx-auto mb-8">
-            Every foreclosure situation is unique. Our team is available for free consultations to
+            Every foreclosure situation is unique. Our team is available to provide always free consultations to
             answer your specific questions about debt relief, foreclosure prevention, and your
             options as a Colorado homeowner.
           </p>
@@ -157,7 +157,7 @@ export default function FAQPage() {
               Want to Chat About It?
             </h2>
             <p className="text-gray-400 text-sm">
-              Submit your question or request a free consultation. We respond within 24 hours.
+              Submit your question or request an always free consultation. We respond within 24 hours.
             </p>
           </div>
           <div className="bg-[#1e1e21] border border-teal-900/30 rounded-2xl p-6 md:p-8">

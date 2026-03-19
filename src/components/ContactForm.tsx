@@ -32,7 +32,7 @@ function validatePhone(phone: string): boolean {
 }
 
 export default function ContactForm({
-  title = 'Get Your Free Consultation',
+  title = 'Get Your Always Free Consultation',
   subtitle = 'Fill out the form below and we\'ll be in touch within 24 hours.',
   dark = true,
 }: ContactFormProps) {
@@ -116,7 +116,7 @@ export default function ContactForm({
           Thank You!
         </h3>
         <p className={`text-sm leading-relaxed mb-4 ${dark ? 'text-gray-300' : 'text-gray-600'}`}>
-          Your message has been received. We'll reach out within 24 hours to schedule your free consultation.
+          Your message has been received. We'll reach out within 24 hours to schedule your always free consultation.
           For immediate help, call us at{' '}
           <a href="tel:7206637346" className="text-teal-400 font-semibold hover:underline">
             720.663.7346

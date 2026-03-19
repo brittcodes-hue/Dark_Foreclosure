@@ -43,10 +43,7 @@ export default function Layout() {
               className="flex flex-col leading-tight group"
             >
               <span className="text-lg md:text-xl font-bold text-white font-[Montserrat] group-hover:text-teal-400 transition-colors">
-                StopMyForeclosure
-              </span>
-              <span className="text-[10px] md:text-xs text-teal-400 uppercase tracking-widest font-semibold">
-                .com
+                End My Foreclosure
               </span>
             </NavLink>
 
@@ -96,7 +93,7 @@ export default function Layout() {
                 href={PHONE_HREF}
                 className="inline-flex items-center px-4 py-2 text-sm font-bold rounded-lg bg-teal-600 hover:bg-teal-500 text-white transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-teal-900/40 whitespace-nowrap"
               >
-                Get Free Consultation
+                Get Your Always Free Consultation
               </a>
             </div>
 
@@ -159,7 +156,7 @@ export default function Layout() {
                 href={PHONE_HREF}
                 className="flex items-center justify-center px-4 py-3 text-sm font-bold rounded-lg bg-teal-600 hover:bg-teal-500 text-white transition-all"
               >
-                Get Free Consultation
+                Get Your Always Free Consultation
               </a>
             </div>
           </div>
@@ -179,7 +176,7 @@ export default function Layout() {
             <div>
               <NavLink to={ROUTE_PATHS.HOME} className="inline-block mb-3">
                 <span className="text-xl font-bold text-white font-[Montserrat]">
-                  StopMyForeclosure<span className="text-teal-400">.com</span>
+                  End My Foreclosure
                 </span>
               </NavLink>
               <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
@@ -234,14 +231,14 @@ export default function Layout() {
                   <span>{PHONE}</span>
                 </a>
                 <p className="text-xs text-gray-500 leading-relaxed">
-                  Free consultations available. Serving Colorado homeowners in the
+                  Always free consultations available. Serving Colorado homeowners in the
                   Denver metro and beyond.
                 </p>
                 <a
                   href={PHONE_HREF}
                   className="inline-flex items-center px-4 py-2 text-xs font-bold rounded-lg bg-teal-700 hover:bg-teal-600 text-white transition-all"
                 >
-                  Get Free Consultation
+                  Get Your Always Free Consultation
                 </a>
               </div>
             </div>
@@ -250,7 +247,7 @@ export default function Layout() {
           {/* Bottom bar */}
           <div className="pt-6 border-t border-teal-900/20 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-500">
             <p>
-              &copy; {new Date().getFullYear()} StopMyForeclosure.com. All rights
+              &copy; {new Date().getFullYear()} End My Foreclosure All rights
               reserved.
             </p>
             <p className="text-center sm:text-right">

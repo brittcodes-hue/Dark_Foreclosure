@@ -77,7 +77,7 @@ export default function HomePage() {
 
           <p className="mt-6 text-teal-300 text-sm font-semibold">
             <Phone size={14} className="inline mr-1.5" />
-            {PHONE} — Free Consultations Available
+            {PHONE} — Always Free Consultations Available
           </p>
         </div>
 
@@ -222,7 +222,7 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <div className="inline-block px-3 py-1 rounded-full bg-teal-900/50 border border-teal-700/40 text-teal-400 text-xs font-semibold uppercase tracking-widest mb-4">
-              Free Consultation
+              Always Free Consultation
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-white font-[Montserrat] mb-2">
               Talk to an Expert Today
@@ -230,7 +230,7 @@ export default function HomePage() {
             <p className="text-gray-400 text-sm">
               Complete the form below and our team will contact you within 24 hours to discuss your options.
               All consultations are{' '}
-              <span className="text-teal-400 font-semibold">completely free and confidential</span>.
+              <span className="text-teal-400 font-semibold">always completely free and confidential</span>.
             </p>
           </div>
           <div className="bg-[#1e1e21] border border-teal-900/30 rounded-2xl p-6 md:p-8">

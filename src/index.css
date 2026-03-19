@@ -20,7 +20,7 @@
 
 3. COLOR SYSTEM:
    - Brand Teal (Hue 174°): Primary color maps to --primary/--accent/--ring. Chosen for psychological associations with trust, calm, and financial stability—critical for debt relief messaging.
-   - Teal Mapping: --primary uses mid-tone teal (#0d9488) for primary CTAs like 'Get Free Consultation'. --accent employs brighter #14b8a6 for hover states and secondary actions. --ring uses deep #0f766e for focus indicators on forms.
+   - Teal Mapping: --primary uses mid-tone teal (#0d9488) for primary CTAs like 'Get Always Free Consultation'. --accent employs brighter #14b8a6 for hover states and secondary actions. --ring uses deep #0f766e for focus indicators on forms.
    - Semantic Colors: --success (teal-green hybrid, Hue 160°) for positive outcomes like 'Homes Saved'. --warning (amber, Hue 45°) for urgent notices. --destructive (red-orange, Hue 10°) sparingly used only for critical alerts.
    - Matte Black Base: --background uses #28282b (OKLCH equivalent) to create sophisticated contrast against white body text, avoiding harsh pure black that strains eyes during extended reading.
 
@@ -208,7 +208,7 @@
   }
 }
 
-/* Custom global styles for stopmyforeclosure.com */
+/* Custom global styles for End My Foreclosure */
 @layer base {
   html, body {
     background-color: #28282b;

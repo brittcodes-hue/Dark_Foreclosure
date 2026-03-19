@@ -9,7 +9,7 @@ export const ROUTE_PATHS = {
 export const PHONE = '720.663.7346';
 export const PHONE_HREF = 'tel:7206637346';
 export const EMAIL_SUBMISSION = 'skyler@gmash.co';
-export const REVIEWS_URL = 'https://gmash.com/Reviews';
+export const REVIEWS_URL = 'https://gmash.co/Reviews';
 export const DEBT_HELP_URL = 'https://gmash.co/foreclosuresupport';
 
 // Trust stats
@@ -25,7 +25,7 @@ export const TESTIMONIALS = [
   {
     id: 1,
     quote:
-      "I was 3 months behind on my mortgage and had no idea what to do. StopMyForeclosure.com connected me with resources that saved my home. I'm forever grateful.",
+      "I was 3 months behind on my mortgage and had no idea what to do. End My Foreclosure connected me with resources that saved my home. I'm forever grateful.",
     name: 'Maria T.',
     location: 'Denver, CO',
   },
@@ -239,9 +239,9 @@ export const FAQ_ITEMS = [
   },
   {
     id: 20,
-    question: 'How can StopMyForeclosure.com help me?',
+    question: 'How can End My Foreclosure help me?',
     answer:
-      'StopMyForeclosure.com provides verified educational resources, connects you with HUD-approved counselors, and offers free consultations to help you understand your options. We help hundreds of Colorado homeowners navigate foreclosure prevention with dignity and support. Call us at 720.663.7346 or complete our contact form for a free consultation.',
+      'End My Foreclosure provides verified educational resources, connects you with HUD-approved counselors, and offers free consultations to help you understand your options. We help hundreds of Colorado homeowners navigate foreclosure prevention with dignity and support. Call us at 720.663.7346 or complete our contact form for a free consultation.',
     source: null,
   },
 ];
